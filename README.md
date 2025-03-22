@@ -1,4 +1,4 @@
-# 💹 Crypto Market Tracker 
+# 💹 Crypto Market Graph Chart
 
 Crypto Market Tracker is a sleek and modern cryptocurrency dashboard that displays live market data, including prices, market capitalization, trading volume, supply, and historical charts for the top 10 cryptocurrencies. Built with **React**, **TypeScript**, **Golang**, and **CoinGecko API**, it provides users with real-time data and an interactive chart to monitor the market trends.
 
@@ -29,6 +29,30 @@ Crypto Market Tracker is a sleek and modern cryptocurrency dashboard that displa
 
 ## 📂 Project Structure
 
+CRYPTO-MARKET
+├── backend
+│   ├── go.mod
+│   ├── go.sum
+│   └── main.go
+├── frontend
+│   ├── node_modules
+│   ├── public
+│   │    └── index.html
+│   └── src
+│        ├── components
+│        │    └── CryptoTrack.tsx
+│        ├── styles
+│        │    └── App.css
+│        ├── App.tsx
+│        ├── index.tsx
+│        ├── react-app-env.d.ts
+│        ├── reportWebVitals.ts
+│        └── setupTests.ts
+├── package.json
+├── package-lock.json
+├── README.md
+├── tsconfig.json
+└── .gitignore
 
 
 ---
@@ -41,14 +65,14 @@ Crypto Market Tracker is a sleek and modern cryptocurrency dashboard that displa
    cd Crypto-Market-Chart
 
 ## ⚙️ Backend Setup
-cd backend
-go mod tidy
-go run main.go
+* cd backend
+* go mod tidy
+* go run main.go
 
 ## ⚙️ Frontend Setup
-cd frontend
-npm install
-npm start
+* cd frontend
+* npm install
+* npm start
 * running on  http://localhost:3000.
 
 ## API Endpoint
